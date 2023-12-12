@@ -31,7 +31,6 @@ function App() {
             <Route path='/QuizzReactApp' element={ <Home/> }></Route>
             <Route path='/QuizzReactApp/quiz' element={ <Quiz/> }></Route>
             <Route path='/QuizzReactApp/quizErrorPage' element={ <QuizErrorPage/> }></Route>
-
           </Routes>
         </Router>
       </QueryClientProvider>
