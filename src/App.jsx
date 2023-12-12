@@ -28,9 +28,9 @@ function App() {
       <QueryClientProvider client={client}>
         <Router>
           <Routes>
-            <Route path='/' element={ <Home/> }></Route>
-            <Route path='/quiz' element={ <Quiz/> }></Route>
-            <Route path='/quizErrorPage' element={ <QuizErrorPage/> }></Route>
+            <Route path='/QuizzReactApp' element={ <Home/> }></Route>
+            <Route path='/QuizzReactApp/quiz' element={ <Quiz/> }></Route>
+            <Route path='/QuizzReactApp/quizErrorPage' element={ <QuizErrorPage/> }></Route>
 
           </Routes>
         </Router>

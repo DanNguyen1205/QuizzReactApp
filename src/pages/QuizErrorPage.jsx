@@ -6,7 +6,7 @@ export const QuizErrorPage = () => {
 
     const returnHome = () => {
         console.log("HI")
-        navigate('/');
+        navigate('/QuizzReactApp');
     }
 
   return (

@@ -24,7 +24,7 @@ const secondsRangeHandler = (event) => {
 }
 
 const onSubmit = (data) => {
-    navigate('/quiz', {state: data});
+    navigate('/QuizzReactApp/quiz', {state: data});
 }
 
 const { data: categoryData, isLoading } = useQuery(["category"], () => {
