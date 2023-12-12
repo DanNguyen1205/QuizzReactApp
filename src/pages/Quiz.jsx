@@ -137,7 +137,7 @@ const Quiz = () => {
       return res.data.results
     }).catch(
       function(error){
-        navigate('/quizErrorPage');
+        navigate('/QuizzReactApp/quizErrorPage');
 
        
       }
